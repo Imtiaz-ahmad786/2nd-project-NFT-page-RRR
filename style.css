@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .wrapper {
-  @apply w-full ;
+  @apply w-full flex justify-center items-center flex-col;
 }
 .contain {
   @apply w-[98%] xl:w-[1440px];
@@ -34,8 +34,17 @@ body {
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
   --gray:
+  --primary-color: #040836;
+    --primary-color-rgb: 4, 8, 54;
+    --secondary-color: #1AA7EC;
+    --secondary-color-2: #797EF6;
+    --secondary-color-rgb: 26, 167, 236;
+    --secondary-color-rgb-2: 121, 126, 246;
   --bs-font-sans-serif: ;
 }
 .btn-gradiant{
+  background: linear-gradient(toright, #b8f0f1, 0%, #c9cae4, 100%)
+}
+.sec-1{
   background: linear-gradient(toright, #b8f0f1, 0%, #c9cae4, 100%)
 }
