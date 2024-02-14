@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .wrapper {
-  @apply w-full flex justify-center items-center flex-col;
+ @apply w-full flex justify-center items-center flex-col;
 }
 .contain {
   @apply w-[98%] xl:w-[1440px];
